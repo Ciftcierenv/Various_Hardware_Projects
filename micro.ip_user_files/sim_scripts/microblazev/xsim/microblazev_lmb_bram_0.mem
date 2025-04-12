@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 5266912 on Sun Dec 15 09:03:31 MST 2024
+// Vivado v2024.2.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Monday February 24, 2025 - 11:20:34 am, from:
+//
+//     Map file     - /home/eciftci/Vivado_Projects/micro/micro.gen/sources_1/bd/microblazev/microblazev.bmm
+//     Data file(s) - /home/eciftci/Vivado_Projects/micro/micro.gen/sources_1/bd/microblazev/ip/microblazev_microblaze_riscv_0_0/data/riscv_bootloop.elf
+//
+// Address space 'microblazev_i_microblaze_riscv_0.microblazev_i_microblaze_riscv_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@0000000000000000
+    0000006F

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:31 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Mon Feb 24 11:21:06 2025
+# Process ID         : 7929
+# Current directory  : /home/eciftci/Vivado_Projects/micro/micro.runs/synth_1
+# Command line       : vivado -log microblazev_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblazev_wrapper.tcl
+# Log file           : /home/eciftci/Vivado_Projects/micro/micro.runs/synth_1/microblazev_wrapper.vds
+# Journal file       : /home/eciftci/Vivado_Projects/micro/micro.runs/synth_1/vivado.jou
+# Running On         : localhost.localdomain
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+# CPU Frequency      : 2400.225 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16406 MB
+# Swap memory        : 8405 MB
+# Total Virtual      : 24811 MB
+# Available Virtual  : 19161 MB
+#-----------------------------------------------------------
+source microblazev_wrapper.tcl -notrace

@@ -1,0 +1,292 @@
+Vivado Simulator v2024.2.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/eciftci/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L microblaze_v11_0_14 -L microblaze_riscv_v1_0_4 -L lmb_v10_v3_0_14 -L lmb_bram_if_cntlr_v4_0_25 -L blk_mem_gen_v8_4_10 -L axi_lite_ipif_v3_0_4 -L mdm_riscv_v1_0_4 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L lib_pkg_v1_0_4 -L lib_srl_fifo_v1_0_4 -L axi_uartlite_v2_0_38 -L xlconstant_v1_1_9 -L smartconnect_v1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_34 -L axi_vip_v1_1_20 -L axi_intc_v4_1_20 -L xlconcat_v2_1_6 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot microblazev_wrapper_behav xil_defaultlib.microblazev_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 32 for port 'timer_event' [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/ipshared/1728/hdl/mytimer.v:99]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/sim/microblazev.v:522]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/sim/microblazev.v:642]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/ip/microblazev_axi_smc_0/bd_0/sim/bd_2613.v:1856]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/sim/microblazev.v:138]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/eciftci/Vivado_Projects/micro/micro.ip_user_files/bd/microblazev/sim/microblazev.v:184]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package ieee.math_real
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lib_pkg_v1_0_4.lib_pkg
+Compiling package mdm_riscv_v1_0_4.mdm_funcs
+Compiling package ieee.std_logic_signed
+Compiling package microblaze_riscv_v1_0_4.riscv_isa
+Compiling package microblaze_v11_0_14.microblaze_types
+Compiling package microblaze_v11_0_14.microblaze_isa
+Compiling package microblaze_v11_0_14.mmu_types
+Compiling package lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_funcs
+Compiling package smartconnect_v1_0.sc_util_v1_0_4_pkg
+Compiling architecture imp of entity axi_intc_v4_1_20.intc_core [\intc_core(c_family="artix7",c_k...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=1,c_aw=9,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=1,c_aw=1,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=1,c_aw=1,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=9,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture imp of entity axi_intc_v4_1_20.axi_intc [\axi_intc(c_family="artix7",c_in...]
+Compiling architecture microblazev_axi_intc_0_0_arch of entity xil_defaultlib.microblazev_axi_intc_0_0 [microblazev_axi_intc_0_0_default]
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
+Compiling module xil_defaultlib.bd_2613_one_0
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="artix7...]
+Compiling architecture bd_2613_psr_aclk_0_arch of entity xil_defaultlib.bd_2613_psr_aclk_0 [bd_2613_psr_aclk_0_default]
+Compiling module xil_defaultlib.clk_map_imp_BDC4IE
+Compiling module xpm.xpm_cdc_async_rst(DEST_SYNC_FF=3...
+Compiling module xil_defaultlib.bd_2613_m00e_0
+Compiling module xil_defaultlib.m00_exit_pipeline_imp_1LT09HP
+Compiling module xil_defaultlib.bd_2613_m00arn_0
+Compiling module xil_defaultlib.bd_2613_m00awn_0
+Compiling module xil_defaultlib.bd_2613_m00bn_0
+Compiling module xil_defaultlib.bd_2613_m00rn_0
+Compiling module xil_defaultlib.bd_2613_m00wn_0
+Compiling module xil_defaultlib.m00_nodes_imp_ZMBORL
+Compiling module xil_defaultlib.bd_2613_m00s2a_0
+Compiling module xil_defaultlib.bd_2613_m01e_0
+Compiling module xil_defaultlib.m01_exit_pipeline_imp_1JCNLQL
+Compiling module xil_defaultlib.bd_2613_m01arn_0
+Compiling module xil_defaultlib.bd_2613_m01awn_0
+Compiling module xil_defaultlib.bd_2613_m01bn_0
+Compiling module xil_defaultlib.bd_2613_m01rn_0
+Compiling module xil_defaultlib.bd_2613_m01wn_0
+Compiling module xil_defaultlib.m01_nodes_imp_860SBB
+Compiling module xil_defaultlib.bd_2613_m01s2a_0
+Compiling module xil_defaultlib.bd_2613_m02e_0
+Compiling module xil_defaultlib.m02_exit_pipeline_imp_1YHC77X
+Compiling module xil_defaultlib.bd_2613_m02arn_0
+Compiling module xil_defaultlib.bd_2613_m02awn_0
+Compiling module xil_defaultlib.bd_2613_m02bn_0
+Compiling module xil_defaultlib.bd_2613_m02rn_0
+Compiling module xil_defaultlib.bd_2613_m02wn_0
+Compiling module xil_defaultlib.m02_nodes_imp_QXGPZG
+Compiling module xil_defaultlib.bd_2613_m02s2a_0
+Compiling module xil_defaultlib.bd_2613_m03e_0
+Compiling module xil_defaultlib.m03_exit_pipeline_imp_1SP53YL
+Compiling module xil_defaultlib.bd_2613_m03arn_0
+Compiling module xil_defaultlib.bd_2613_m03awn_0
+Compiling module xil_defaultlib.bd_2613_m03bn_0
+Compiling module xil_defaultlib.bd_2613_m03rn_0
+Compiling module xil_defaultlib.bd_2613_m03wn_0
+Compiling module xil_defaultlib.m03_nodes_imp_1XX8262
+Compiling module xil_defaultlib.bd_2613_m03s2a_0
+Compiling module xil_defaultlib.bd_2613_s00a2s_0
+Compiling module xil_defaultlib.bd_2613_s00mmu_0
+Compiling module xil_defaultlib.bd_2613_s00sic_0
+Compiling module xil_defaultlib.bd_2613_s00tr_0
+Compiling module xil_defaultlib.s00_entry_pipeline_imp_N5WKJY
+Compiling module xil_defaultlib.bd_2613_sarn_0
+Compiling module xil_defaultlib.bd_2613_sawn_0
+Compiling module xil_defaultlib.bd_2613_sbn_0
+Compiling module xil_defaultlib.bd_2613_srn_0
+Compiling module xil_defaultlib.bd_2613_swn_0
+Compiling module xil_defaultlib.s00_nodes_imp_JMWSUS
+Compiling module xil_defaultlib.bd_2613_arinsw_0
+Compiling module xil_defaultlib.bd_2613_aroutsw_0
+Compiling module xil_defaultlib.bd_2613_awinsw_0
+Compiling module xil_defaultlib.bd_2613_awoutsw_0
+Compiling module xil_defaultlib.bd_2613_binsw_0
+Compiling module xil_defaultlib.bd_2613_boutsw_0
+Compiling module xil_defaultlib.bd_2613_arni_0
+Compiling module xil_defaultlib.bd_2613_awni_0
+Compiling module xil_defaultlib.bd_2613_bni_0
+Compiling module xil_defaultlib.bd_2613_rni_0
+Compiling module xil_defaultlib.bd_2613_wni_0
+Compiling module xil_defaultlib.i_nodes_imp_1SO64AG
+Compiling module xil_defaultlib.bd_2613_rinsw_0
+Compiling module xil_defaultlib.bd_2613_routsw_0
+Compiling module xil_defaultlib.bd_2613_winsw_0
+Compiling module xil_defaultlib.bd_2613_woutsw_0
+Compiling module xil_defaultlib.switchboards_imp_CJH3WG
+Compiling module xil_defaultlib.bd_2613
+Compiling module xil_defaultlib.microblazev_axi_smc_0
+Compiling architecture rtl of entity axi_uartlite_v2_0_38.baudrate [\baudrate(c_ratio=54)\]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_4.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_4.srl_fifo_f [\srl_fifo_f(c_dwidth=8,c_family=...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_38.uartlite_rx [\uartlite_rx(c_family="artix7")(...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_38.uartlite_tx [\uartlite_tx(c_family="artix7")(...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_38.uartlite_core [\uartlite_core(c_family="artix7"...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=4,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_38.axi_uartlite [\axi_uartlite(c_family="artix7",...]
+Compiling architecture microblazev_axi_uartlite_0_0_arch of entity xil_defaultlib.microblazev_axi_uartlite_0_0 [microblazev_axi_uartlite_0_0_def...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.microblazev_clk_wiz_1_0_clk_wiz
+Compiling module xil_defaultlib.microblazev_clk_wiz_1_0
+Compiling architecture bscane2_v of entity unisim.BSCANE2 [\BSCANE2(jtag_chain=2)(1,5)\]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MB_BSCANE2 [\MB_BSCANE2(c_target=artix7,jtag...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="10")(0,1)\]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MB_LUT1 [\MB_LUT1(c_target=artix7,init="1...]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture bufgctrl_v of entity unisim.BUFGCTRL [\BUFGCTRL(init_out=1,preselect_i...]
+Compiling architecture bufgce_1_v of entity unisim.BUFGCE_1 [\BUFGCE_1(1,10)\]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MB_BUFGCE_1 [\MB_BUFGCE_1(c_target=artix7)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MB_BUFG [\MB_BUFG(c_target=artix7)\]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.JTAG_CONTROL [\JTAG_CONTROL(c_target=artix7,c_...]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MDM_Core [\MDM_Core(c_target=artix7,c_jtag...]
+Compiling architecture imp of entity mdm_riscv_v1_0_4.MDM_RISCV [\MDM_RISCV(c_family="artix7",c_d...]
+Compiling architecture microblazev_mdm_1_0_arch of entity xil_defaultlib.microblazev_mdm_1_0 [microblazev_mdm_1_0_default]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_levels=1)\]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [mb_sync_bit_default]
+Compiling architecture imp of entity microblaze_v11_0_14.read_data_mux [\read_data_mux(c_data_size=32,c_...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.DAXI_interface [\DAXI_interface(c_data_size=32,c...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_vec [\mb_sync_vec(c_width=12)\]
+Compiling architecture imp of entity microblaze_v11_0_14.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.riscv_debug [\riscv_debug(c_data_size=32,c_in...]
+Compiling architecture imp of entity microblaze_v11_0_14.carry_compare [\carry_compare(c_target=artix7,s...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.trigger [\trigger(c_data_size=32,c_instr_...]
+Compiling architecture imp of entity microblaze_v11_0_14.interrupt_mode_converter [\interrupt_mode_converter(c_inte...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_14.carry_or [\carry_or(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDRE [\MB_FDRE(c_target=artix7)\]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDE [\MB_FDE(c_target=artix7)\]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXCY_XORCY [\MB_MUXCY_XORCY(c_target=artix7)...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXF7 [\MB_MUXF7(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDR [\MB_FDR(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.PC_Module_gti [\PC_Module_gti(c_pht0_hash=7,c_p...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture fds_v of entity unisim.FDS [fds_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_FDS [\MB_FDS(c_target=artix7)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000111111110000...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.OneHot_Buffer_FF [\OneHot_Buffer_FF(c_target=artix...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.PreFetch_Buffer_ff [\PreFetch_Buffer_ff(c_instr_size...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Compression [\Compression(c_data_size=32,c_in...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_MUXCY [\MB_MUXCY(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_14.carry_and [\carry_and(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.jump_logic [\jump_logic(c_instr_size=32,c_ta...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Decode_gti [\Decode_gti(c_pipe_stages=5,c_da...]
+Compiling architecture imp of entity microblaze_v11_0_14.WB_Mux_Bit [\WB_Mux_Bit(c_target=artix7,c_lu...]
+Compiling architecture imp of entity microblaze_v11_0_14.WB_Mux_Bit [\WB_Mux_Bit(c_target=artix7,c_lu...]
+Compiling architecture imp of entity microblaze_v11_0_14.WB_Mux [\WB_Mux(c_data_size=32,c_daddr_s...]
+Compiling architecture ram32m_v of entity unisim.RAM32M [ram32m_default]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_RAM32M [\MB_RAM32M(c_target=artix7,c_use...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Register_File_gti [\Register_File_gti(c_data_size=3...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000000001111...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Mux4 [\Mux4(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Operand_Select_gti [\Operand_Select_gti(c_pipe_stage...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="001010000111101010...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.ALU_Bit [\ALU_Bit(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.ALU [\ALU(c_data_size=32,c_target=art...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.mul_unit [\mul_unit(c_data_size=32,c_fast_...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Barrel_Shifter_gti [\Barrel_Shifter_gti(c_data_size=...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.bitman [\bitman(c_data_size=32,c_target=...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Branch_Compare [\Branch_Compare(c_target=artix7,...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Byte_Doublet_Handle_gti [\Byte_Doublet_Handle_gti(c_data_...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Data_Flow_Logic [\Data_Flow_Logic(c_pipe_stages=5...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.csr [\csr(c_pipe_stages=5,c_data_size...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.Data_Flow_gti [\Data_Flow_gti(c_strategy=0,c_da...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_14.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_14.mux_bus [\mux_bus(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_14.instr_mux [\instr_mux(c_instr_size=32,c_lmb...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.MMU [\MMU(c_pipe_stages=5,c_data_size...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.pmp_checker [\pmp_checker(c_target=artix7,c_u...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.riscv_GTi [\riscv_GTi(c_num_sync_ff_clk=2,c...]
+Compiling architecture imp of entity microblaze_v11_0_14.mb_sync_bit [\mb_sync_bit(c_reset_value='1')\]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.riscv_core [\riscv_core(c_freq=100000000,c_u...]
+Compiling architecture imp of entity microblaze_riscv_v1_0_4.riscv [\riscv(c_freq=100000000,c_family...]
+Compiling architecture microblazev_microblaze_riscv_0_0_arch of entity xil_defaultlib.microblazev_microblaze_riscv_0_0 [microblazev_microblaze_riscv_0_0...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture microblazev_dlmb_bram_if_cntlr_0_arch of entity xil_defaultlib.microblazev_dlmb_bram_if_cntlr_0 [microblazev_dlmb_bram_if_cntlr_0...]
+Compiling architecture imp of entity lmb_v10_v3_0_14.lmb_v10 [\lmb_v10(c_lmb_num_slaves=1)\]
+Compiling architecture microblazev_dlmb_v10_0_arch of entity xil_defaultlib.microblazev_dlmb_v10_0 [microblazev_dlmb_v10_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_25.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture microblazev_ilmb_bram_if_cntlr_0_arch of entity xil_defaultlib.microblazev_ilmb_bram_if_cntlr_0 [microblazev_ilmb_bram_if_cntlr_0...]
+Compiling architecture microblazev_ilmb_v10_0_arch of entity xil_defaultlib.microblazev_ilmb_v10_0 [microblazev_ilmb_v10_0_default]
+Compiling module blk_mem_gen_v8_4_10.blk_mem_gen_v8_4_10_output_stage...
+Compiling module blk_mem_gen_v8_4_10.blk_mem_gen_v8_4_10_softecc_outp...
+Compiling module blk_mem_gen_v8_4_10.blk_mem_gen_v8_4_10_mem_module(C...
+Compiling module blk_mem_gen_v8_4_10.blk_mem_gen_v8_4_10(C_FAMILY="ar...
+Compiling module xil_defaultlib.microblazev_lmb_bram_0
+Compiling module xil_defaultlib.microblaze_riscv_0_local_memory_...
+Compiling module xil_defaultlib.mytimer_slave_lite_v1_0_S00_AXI_...
+Compiling module xil_defaultlib.mytimer_slave_lite_inter_v1_0_S_...
+Compiling module xil_defaultlib.Timer
+Compiling module xil_defaultlib.mytimer
+Compiling module xil_defaultlib.microblazev_mytimer_0_1
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="artix7...]
+Compiling architecture microblazev_rst_clk_wiz_1_100m_0_arch of entity xil_defaultlib.microblazev_rst_clk_wiz_1_100M_0 [microblazev_rst_clk_wiz_1_100m_0...]
+Compiling module xlconcat_v2_1_6.xlconcat_v2_1_6_xlconcat_default
+Compiling module xil_defaultlib.microblazev_xlconcat_0_0
+Compiling module xil_defaultlib.microblazev
+Compiling module xil_defaultlib.microblazev_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot microblazev_wrapper_behav

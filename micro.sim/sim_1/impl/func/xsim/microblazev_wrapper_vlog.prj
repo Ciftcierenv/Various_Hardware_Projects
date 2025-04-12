@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../micro.gen/sources_1/bd/microblazev/ipshared/3cbc" --include "../../../../../micro.gen/sources_1/bd/microblazev/ipshared/f0b6/hdl/verilog" --include "../../../../../micro.gen/sources_1/bd/microblazev/ipshared/0127/hdl/verilog" --include "../../../../../micro.gen/sources_1/bd/microblazev/ipshared/ec67/hdl" --include "/home/eciftci/Xilinx/Vivado/2024.2/data/xilinx_vip/include" \
+"microblazev_wrapper_func_impl.v" \
+
+# Do not sort compile order
+nosort

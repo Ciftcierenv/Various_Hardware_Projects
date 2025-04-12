@@ -1,0 +1,4 @@
+domain_path: /home/eciftci/Vivado_Projects/micro/vitis_workspace/platform/export/platform/sw/standalone_microblaze_riscv_0
+app_src_dir: /home/eciftci/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c

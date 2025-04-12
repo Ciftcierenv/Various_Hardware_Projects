@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER mytimer
+	OPTION supported_peripherals = (mytimer);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = mytimer;
+END DRIVER

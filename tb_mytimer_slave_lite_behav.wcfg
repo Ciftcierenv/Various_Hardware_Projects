@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mytimer_slave_lite_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_mytimer_slave_lite" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,610.001 ns"></ZoomEndTime>
+      <Cursor1Time time="20,381,315.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_ACLK">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_ARESETN">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_AWADDR">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_AWPROT">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_AWVALID">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_AWREADY">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_WDATA">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_WSTRB">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_WVALID">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_WREADY">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_BRESP">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_BVALID">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_BREADY">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_ARADDR">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_ARPROT">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_ARVALID">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_ARREADY">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_RDATA">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/S_AXI_RRESP">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_RVALID">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_mytimer_slave_lite/S_AXI_RREADY">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/C_S_AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/C_S_AXI_ADDR_WIDTH">
+      <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg0">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg1">
+      <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg2">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg3">
+      <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg4">
+      <obj_property name="ElementShortName">slv_reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_mytimer_slave_lite/dut/slv_reg5">
+      <obj_property name="ElementShortName">slv_reg5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg5[31:0]</obj_property>
+   </wvobject>
+</wave_config>
